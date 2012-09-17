@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FB04E11607851F00DB72B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E01607851F00DB72B5 /* UIKit.framework */; };
+		57FB04E31607851F00DB72B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E21607851F00DB72B5 /* Foundation.framework */; };
+		57FB04E51607851F00DB72B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E41607851F00DB72B5 /* CoreGraphics.framework */; };
+		57FB04EB1607851F00DB72B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04E91607851F00DB72B5 /* InfoPlist.strings */; };
+		57FB04ED1607851F00DB72B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FB04EC1607851F00DB72B5 /* main.m */; };
+		57FB04F11607851F00DB72B5 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FB04F01607851F00DB72B5 /* BPAppDelegate.m */; };
+		57FB04F31607851F00DB72B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F21607851F00DB72B5 /* Default.png */; };
+		57FB04F51607851F00DB72B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F41607851F00DB72B5 /* Default@2x.png */; };
+		57FB04F71607851F00DB72B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F61607851F00DB72B5 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57FB04DC1607851F00DB72B5 /* Passbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FB04E01607851F00DB72B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57FB04E21607851F00DB72B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57FB04E41607851F00DB72B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57FB04E81607851F00DB72B5 /* Passbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passbook-Info.plist"; sourceTree = "<group>"; };
+		57FB04EA1607851F00DB72B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57FB04EC1607851F00DB72B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57FB04EE1607851F00DB72B5 /* Passbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passbook-Prefix.pch"; sourceTree = "<group>"; };
+		57FB04EF1607851F00DB72B5 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		57FB04F01607851F00DB72B5 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		57FB04F21607851F00DB72B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57FB04F41607851F00DB72B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57FB04F61607851F00DB72B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FB04D91607851F00DB72B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FB04E11607851F00DB72B5 /* UIKit.framework in Frameworks */,
+				57FB04E31607851F00DB72B5 /* Foundation.framework in Frameworks */,
+				57FB04E51607851F00DB72B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FB04D11607851F00DB72B5 = {
+			isa = PBXGroup;
+			children = (
+				57FB04E61607851F00DB72B5 /* Passbook */,
+				57FB04DF1607851F00DB72B5 /* Frameworks */,
+				57FB04DD1607851F00DB72B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57FB04DD1607851F00DB72B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FB04DC1607851F00DB72B5 /* Passbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FB04DF1607851F00DB72B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57FB04E01607851F00DB72B5 /* UIKit.framework */,
+				57FB04E21607851F00DB72B5 /* Foundation.framework */,
+				57FB04E41607851F00DB72B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57FB04E61607851F00DB72B5 /* Passbook */ = {
+			isa = PBXGroup;
+			children = (
+				57FB04EF1607851F00DB72B5 /* BPAppDelegate.h */,
+				57FB04F01607851F00DB72B5 /* BPAppDelegate.m */,
+				57FB04E71607851F00DB72B5 /* Supporting Files */,
+			);
+			path = Passbook;
+			sourceTree = "<group>";
+		};
+		57FB04E71607851F00DB72B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FB04E81607851F00DB72B5 /* Passbook-Info.plist */,
+				57FB04E91607851F00DB72B5 /* InfoPlist.strings */,
+				57FB04EC1607851F00DB72B5 /* main.m */,
+				57FB04EE1607851F00DB72B5 /* Passbook-Prefix.pch */,
+				57FB04F21607851F00DB72B5 /* Default.png */,
+				57FB04F41607851F00DB72B5 /* Default@2x.png */,
+				57FB04F61607851F00DB72B5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FB04DB1607851F00DB72B5 /* Passbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "Passbook" */;
+			buildPhases = (
+				57FB04D81607851F00DB72B5 /* Sources */,
+				57FB04D91607851F00DB72B5 /* Frameworks */,
+				57FB04DA1607851F00DB72B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passbook;
+			productName = Passbook;
+			productReference = 57FB04DC1607851F00DB72B5 /* Passbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FB04D31607851F00DB72B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bojan Percevic";
+			};
+			buildConfigurationList = 57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "Passbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57FB04D11607851F00DB72B5;
+			productRefGroup = 57FB04DD1607851F00DB72B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FB04DB1607851F00DB72B5 /* Passbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FB04DA1607851F00DB72B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FB04EB1607851F00DB72B5 /* InfoPlist.strings in Resources */,
+				57FB04F31607851F00DB72B5 /* Default.png in Resources */,
+				57FB04F51607851F00DB72B5 /* Default@2x.png in Resources */,
+				57FB04F71607851F00DB72B5 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FB04D81607851F00DB72B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FB04ED1607851F00DB72B5 /* main.m in Sources */,
+				57FB04F11607851F00DB72B5 /* BPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57FB04E91607851F00DB72B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FB04EA1607851F00DB72B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FB04F81607851F00DB72B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57FB04F91607851F00DB72B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FB04FB1607851F00DB72B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbook/Passbook-Prefix.pch";
+				INFOPLIST_FILE = "Passbook/Passbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57FB04FC1607851F00DB72B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbook/Passbook-Prefix.pch";
+				INFOPLIST_FILE = "Passbook/Passbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "Passbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FB04F81607851F00DB72B5 /* Debug */,
+				57FB04F91607851F00DB72B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "Passbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FB04FB1607851F00DB72B5 /* Debug */,
+				57FB04FC1607851F00DB72B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FB04D31607851F00DB72B5 /* Project object */;
+}

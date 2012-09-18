@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@class BPPassbookView;
+@protocol BPPassbookDataSource <NSObject>
+
+@required
+- (NSInteger) numberOfColumnSectionsInPassbookView:(BPPassbookView *)passbookView;
+- (NSInteger) passbookView:(BPPassbookView *)passbookView numberOfColumnsInColumnSection:(NSInteger)section;
+
+@optional
+- (UIView *) passbookView:(BPPassbookView *)passbookView viewForColumnAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
 @interface BPPassbookView : UIScrollView
+@property (weak) id<BPPassbookDataSource> passbookDataSource;
+
+- (CGRect) safeFrame;
 
 @end

@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BPPassbookView.h"
 
-@interface BPPassbookColumnSet : UIScrollView
+typedef enum {
+    BPPassbookColumnStateNormal = 0,
+    BPPassbookColumnStateFocused = 1,
+    BPPassbookColumnStateStashed
+} BPPassbookColumnState;
+
+@interface BPPassbookColumnSection : UIScrollView
+
+@property NSIndexPath *indexPath;
+@property (readwrite) BPPassbookColumnState state;
+@property (weak) BPPassbookView *passbookView;
+@property UIPageControl *pageControl;
+
+- (CGRect) restoreFrame;
+- (CGRect) focusedFrame;
+- (CGRect) stashedFrame;
 
 @end

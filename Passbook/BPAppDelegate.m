@@ -7,6 +7,7 @@
 //
 
 #import "BPAppDelegate.h"
+#import "BPPassbookViewController.h"
 
 @implementation BPAppDelegate
 
@@ -14,7 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+    BPPassbookViewController *passbookViewController = [[BPPassbookViewController alloc] initWithNibName:nil bundle:nil];    
+    self.window.rootViewController = passbookViewController;
+    
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

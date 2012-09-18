@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5701C8641607BD40007E4ABF /* BPPassbookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701C8631607BD40007E4ABF /* BPPassbookViewController.m */; };
+		5701C8671607BE8F007E4ABF /* BPPassbookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701C8661607BE8F007E4ABF /* BPPassbookView.m */; };
+		5701C86D1607C660007E4ABF /* BPPassbookColumnSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701C86C1607C660007E4ABF /* BPPassbookColumnSection.m */; };
+		5701C8781607F0BF007E4ABF /* BPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701C8771607F0BF007E4ABF /* BPCard.m */; };
 		57FB04E11607851F00DB72B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E01607851F00DB72B5 /* UIKit.framework */; };
 		57FB04E31607851F00DB72B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E21607851F00DB72B5 /* Foundation.framework */; };
 		57FB04E51607851F00DB72B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB04E41607851F00DB72B5 /* CoreGraphics.framework */; };
@@ -16,22 +20,32 @@
 		57FB04F31607851F00DB72B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F21607851F00DB72B5 /* Default.png */; };
 		57FB04F51607851F00DB72B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F41607851F00DB72B5 /* Default@2x.png */; };
 		57FB04F71607851F00DB72B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FB04F61607851F00DB72B5 /* Default-568h@2x.png */; };
+		57FB050816078E5700DB72B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FB050716078E5700DB72B5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57FB04DC1607851F00DB72B5 /* Passbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5701C8621607BD3F007E4ABF /* BPPassbookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPPassbookViewController.h; sourceTree = "<group>"; };
+		5701C8631607BD40007E4ABF /* BPPassbookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPPassbookViewController.m; sourceTree = "<group>"; };
+		5701C8651607BE8F007E4ABF /* BPPassbookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPPassbookView.h; sourceTree = "<group>"; };
+		5701C8661607BE8F007E4ABF /* BPPassbookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPPassbookView.m; sourceTree = "<group>"; };
+		5701C86B1607C660007E4ABF /* BPPassbookColumnSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPPassbookColumnSection.h; sourceTree = "<group>"; };
+		5701C86C1607C660007E4ABF /* BPPassbookColumnSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPPassbookColumnSection.m; sourceTree = "<group>"; };
+		5701C8761607F0BF007E4ABF /* BPCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCard.h; sourceTree = "<group>"; };
+		5701C8771607F0BF007E4ABF /* BPCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCard.m; sourceTree = "<group>"; };
+		57FB04DC1607851F00DB72B5 /* BPPassbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPPassbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FB04E01607851F00DB72B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		57FB04E21607851F00DB72B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57FB04E41607851F00DB72B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		57FB04E81607851F00DB72B5 /* Passbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passbook-Info.plist"; sourceTree = "<group>"; };
+		57FB04E81607851F00DB72B5 /* BPPassbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BPPassbook-Info.plist"; sourceTree = "<group>"; };
 		57FB04EA1607851F00DB72B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57FB04EC1607851F00DB72B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		57FB04EE1607851F00DB72B5 /* Passbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passbook-Prefix.pch"; sourceTree = "<group>"; };
+		57FB04EE1607851F00DB72B5 /* BPPassbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPPassbook-Prefix.pch"; sourceTree = "<group>"; };
 		57FB04EF1607851F00DB72B5 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
 		57FB04F01607851F00DB72B5 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
 		57FB04F21607851F00DB72B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		57FB04F41607851F00DB72B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		57FB04F61607851F00DB72B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57FB050716078E5700DB72B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FB050816078E5700DB72B5 /* QuartzCore.framework in Frameworks */,
 				57FB04E11607851F00DB72B5 /* UIKit.framework in Frameworks */,
 				57FB04E31607851F00DB72B5 /* Foundation.framework in Frameworks */,
 				57FB04E51607851F00DB72B5 /* CoreGraphics.framework in Frameworks */,
@@ -48,10 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5701C8721607E8B3007E4ABF /* BPPassbookView */ = {
+			isa = PBXGroup;
+			children = (
+				5701C8651607BE8F007E4ABF /* BPPassbookView.h */,
+				5701C8661607BE8F007E4ABF /* BPPassbookView.m */,
+				5701C86B1607C660007E4ABF /* BPPassbookColumnSection.h */,
+				5701C86C1607C660007E4ABF /* BPPassbookColumnSection.m */,
+			);
+			name = BPPassbookView;
+			sourceTree = "<group>";
+		};
 		57FB04D11607851F00DB72B5 = {
 			isa = PBXGroup;
 			children = (
 				57FB04E61607851F00DB72B5 /* Passbook */,
+				57FB04E71607851F00DB72B5 /* Supporting Files */,
 				57FB04DF1607851F00DB72B5 /* Frameworks */,
 				57FB04DD1607851F00DB72B5 /* Products */,
 			);
@@ -60,7 +87,7 @@
 		57FB04DD1607851F00DB72B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57FB04DC1607851F00DB72B5 /* Passbook.app */,
+				57FB04DC1607851F00DB72B5 /* BPPassbook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +95,7 @@
 		57FB04DF1607851F00DB72B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57FB050716078E5700DB72B5 /* QuartzCore.framework */,
 				57FB04E01607851F00DB72B5 /* UIKit.framework */,
 				57FB04E21607851F00DB72B5 /* Foundation.framework */,
 				57FB04E41607851F00DB72B5 /* CoreGraphics.framework */,
@@ -78,9 +106,13 @@
 		57FB04E61607851F00DB72B5 /* Passbook */ = {
 			isa = PBXGroup;
 			children = (
+				5701C8721607E8B3007E4ABF /* BPPassbookView */,
 				57FB04EF1607851F00DB72B5 /* BPAppDelegate.h */,
 				57FB04F01607851F00DB72B5 /* BPAppDelegate.m */,
-				57FB04E71607851F00DB72B5 /* Supporting Files */,
+				5701C8621607BD3F007E4ABF /* BPPassbookViewController.h */,
+				5701C8631607BD40007E4ABF /* BPPassbookViewController.m */,
+				5701C8761607F0BF007E4ABF /* BPCard.h */,
+				5701C8771607F0BF007E4ABF /* BPCard.m */,
 			);
 			path = Passbook;
 			sourceTree = "<group>";
@@ -88,23 +120,24 @@
 		57FB04E71607851F00DB72B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				57FB04E81607851F00DB72B5 /* Passbook-Info.plist */,
+				57FB04E81607851F00DB72B5 /* BPPassbook-Info.plist */,
 				57FB04E91607851F00DB72B5 /* InfoPlist.strings */,
 				57FB04EC1607851F00DB72B5 /* main.m */,
-				57FB04EE1607851F00DB72B5 /* Passbook-Prefix.pch */,
+				57FB04EE1607851F00DB72B5 /* BPPassbook-Prefix.pch */,
 				57FB04F21607851F00DB72B5 /* Default.png */,
 				57FB04F41607851F00DB72B5 /* Default@2x.png */,
 				57FB04F61607851F00DB72B5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = Passbook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57FB04DB1607851F00DB72B5 /* Passbook */ = {
+		57FB04DB1607851F00DB72B5 /* BPPassbook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "Passbook" */;
+			buildConfigurationList = 57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "BPPassbook" */;
 			buildPhases = (
 				57FB04D81607851F00DB72B5 /* Sources */,
 				57FB04D91607851F00DB72B5 /* Frameworks */,
@@ -114,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = Passbook;
+			name = BPPassbook;
 			productName = Passbook;
-			productReference = 57FB04DC1607851F00DB72B5 /* Passbook.app */;
+			productReference = 57FB04DC1607851F00DB72B5 /* BPPassbook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +162,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Bojan Percevic";
 			};
-			buildConfigurationList = 57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "Passbook" */;
+			buildConfigurationList = 57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "BPPassbook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57FB04DB1607851F00DB72B5 /* Passbook */,
+				57FB04DB1607851F00DB72B5 /* BPPassbook */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +200,10 @@
 			files = (
 				57FB04ED1607851F00DB72B5 /* main.m in Sources */,
 				57FB04F11607851F00DB72B5 /* BPAppDelegate.m in Sources */,
+				5701C8641607BD40007E4ABF /* BPPassbookViewController.m in Sources */,
+				5701C8671607BE8F007E4ABF /* BPPassbookView.m in Sources */,
+				5701C86D1607C660007E4ABF /* BPPassbookColumnSection.m in Sources */,
+				5701C8781607F0BF007E4ABF /* BPCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Passbook/Passbook-Prefix.pch";
-				INFOPLIST_FILE = "Passbook/Passbook-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Passbook/BPPassbook-Prefix.pch";
+				INFOPLIST_FILE = "Passbook/BPPassbook-Info.plist";
+				PRODUCT_NAME = BPPassbook;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,9 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Passbook/Passbook-Prefix.pch";
-				INFOPLIST_FILE = "Passbook/Passbook-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Passbook/BPPassbook-Prefix.pch";
+				INFOPLIST_FILE = "Passbook/BPPassbook-Info.plist";
+				PRODUCT_NAME = BPPassbook;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -258,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "Passbook" */ = {
+		57FB04D61607851F00DB72B5 /* Build configuration list for PBXProject "BPPassbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57FB04F81607851F00DB72B5 /* Debug */,
@@ -267,13 +304,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "Passbook" */ = {
+		57FB04FA1607851F00DB72B5 /* Build configuration list for PBXNativeTarget "BPPassbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57FB04FB1607851F00DB72B5 /* Debug */,
 				57FB04FC1607851F00DB72B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

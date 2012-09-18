@@ -11,4 +11,9 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "BPAppDelegate.h"
 #endif
+
+#define AppDelegate ((BPAppDelegate*)[UIApplication sharedApplication])
+#define STROKE_VIEW(view, color) view.layer.borderWidth = 1.f, view.layer.borderColor = color.CGColor

@@ -10,4 +10,6 @@
 
 @interface BPCard : UIView
 
+@property UILabel *label;
+
 @end
